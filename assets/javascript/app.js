@@ -5,3 +5,5 @@
 // user can also click it again to stop the gif 
 // allow the user to create a way to add a new button
 // that new button will populate into the array for topics 
+
+var pokemon = ["Pikachu", "Charizard", "Greninja", "Eevee", "Squirtle", "Piplup" ]
