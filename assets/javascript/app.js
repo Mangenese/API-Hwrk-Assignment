@@ -11,7 +11,7 @@ var pokemon = ["Pikachu", "Charizard", "Greninja", "Eevee", "Squirtle", "Piplup"
 
 $(document).on("click", ".pokemon", function (){
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + $(this).attr("data-name") + "&api_key=2GkeMiEVpWc9VEWUuwkVWAf36g5KM1ul&limit=10"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).attr("data-name") + "&api_key=2GkeMiEVpWc9VEWUuwkVWAf36g5KM1ul&limit=10"
     
     $(".gif").empty();
     $.ajax({
