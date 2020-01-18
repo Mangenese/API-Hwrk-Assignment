@@ -3,9 +3,18 @@
 
 }
 
+html {
+    background: url(../image/Eevee.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 img {
-    height: 400px;
-    width: 450px;
+    height: auto;
+    width: auto;
     margin-top: 10px;
     margin-left: 20px;
 
@@ -31,5 +40,11 @@ button {
 
 form {
     float: right;
+    
+}
+.gif {
+    color:black;
+    font-size: 24px;
+    border: 1px solid black;
     
 }
