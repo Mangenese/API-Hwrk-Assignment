@@ -5,7 +5,9 @@
 
 img {
     height: 400px;
-    width: 450px 
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 20px;
 
 }
 
@@ -16,6 +18,7 @@ button {
     border-color: black;
     font-size: 24px;
     margin-left: 7px;
+    
 
 
 }
