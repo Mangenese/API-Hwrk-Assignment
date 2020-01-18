@@ -6,4 +6,25 @@
 // allow the user to create a way to add a new button
 // that new button will populate into the array for topics 
 
+// array for the items to go into 
 var pokemon = ["Pikachu", "Charizard", "Greninja", "Eevee", "Squirtle", "Piplup" ]
+
+//function for displaying the gifs for the page 
+
+function renderButtons() {
+    // to stop buttons from repeating 
+    $("#buttons").empty();
+
+    for (var i = 0; i <pokemon.length; i++) {
+        // creating buttons for all the items in the arrays
+        var button = $("<button>");
+        button.addClass("pokemon");
+        button.attr("data-name", pokemon[i]);
+        button.text(pokemon[i]);
+        $("#buttons").append(button)
+
+
+    }
+}
+
+renderButtons();
