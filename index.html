@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gettin Giphy Wit It</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
+
 <body>
-    <div id="buttons"></div>
+    <div class="container">
+        <div id="buttons"></div>
+
+        <form id="pokemon-form">
+            <label for="button-input">  </label>
+            <input type="text" id="button-input">
+            <input id="add-button" type="submit" value="Fancy a button?">
+
+
+        </form>
+    </div>
+    <div class="content">
+        <div class="gif"></div>
+    </div>
 
 
     <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+
+}
+
+img {
+    height: 400px;
+    width: 450px 
+
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border-color: black;
+    font-size: 24px;
+    margin-left: 7px;
+
+
+}
+
+.container {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+form {
+    float: right;
+    
+}
